@@ -1,0 +1,17 @@
+CREATE TABLE coustomer_Accounts_HDFC(
+   Cst_ID VARCHAR(1020),
+   cst_Name VARCHAR(150),
+   phone_no VARCHAR (200),
+   Account_no VARCHAR(160),
+   Account_type VARCHAR(820),
+);
+
+INSERT INTO coustomer_Accounts_HDFC(Cst_ID,cst_Name,phone_no,Account_no,Account_type)
+VALUES (101,'AMAN KUMAR',6747961342,'A10001','SAVING'),
+(102,'ABHIRAJ','232425264','A10002','CURRENT'),
+(103,'ADARSH', '6737885367','A10003','CURRENT'),
+(104,'ANSH RAJ','235426234','A10004','SAVING'),
+(105,'SAHIL RAJ','896798455','A10005','CURRENT'),
+(106,'KILLER','225525153','A10006','SAVING');
+
+SELECT* FROM coustomer_Accounts_HDFC;
